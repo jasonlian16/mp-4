@@ -8,7 +8,6 @@ export default async function Image() {
     return (
         <main>
         <h1 className="text-lg">Random Cat Images</h1>
-        <p className="text-sm">refresh the page to generate new images!</p>
 
         <div className="flex flex-wrap justify-center gap-6">
             {(cats.map((cat: CatImageTypes) => {
